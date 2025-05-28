@@ -1,2 +1,1 @@
-# pr-runner
-Agentic AI to test PR
+<pre lang="bash"><code> ```bash echo "🚀 Building Docker image..." docker build -t flask-app . echo "🧪 Running container in background..." docker run -d -p 5000:5000 --name flask-test flask-app echo "✅ Testing Flask app..." curl -s http://localhost:5000 echo "🧹 Cleaning up..." docker stop flask-test docker rm flask-test ``` </code></pre>
